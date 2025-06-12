@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estudiantes.xsl"?>
+<estudiantes>
+    <estudiante>
+        <nombre>Ana</nombre>
+        <edad>20</edad>
+        <carrera>Ingeniería</carrera>
+    </estudiante>
+    <estudiante>
+        <nombre>Luis</nombre>
+        <edad>22</edad>
+        <carrera>Medicina</carrera>
+    </estudiante>
+</estudiantes>
