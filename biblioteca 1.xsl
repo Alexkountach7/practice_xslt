@@ -8,8 +8,9 @@
         </head>
         <body>
             <h1>mostrar autor</h1>
+            
             <ul>
-                <xsl:for-each select="biblioteca/libro">
+                    <xsl:for-each select="biblioteca/libro">
                     <li><xsl:value-of select="autor"></xsl:value-of></li>
                 </xsl:for-each>
             </ul>
