@@ -16,7 +16,7 @@
             <th>ANIO</th>
             <th>PRECIO</th>
         </tr>
-        <xsl:for-each select="tienda/raqueta[precio &gt;150]">
+        <xsl:for-each select="TIENDA/RAQUETA[PRECIO &gt;150]">
         <tr>
             <td><xsl:value-of select="MARCA"></xsl:value-of></td>
             <td><xsl:value-of select="MODELO"></xsl:value-of></td>
